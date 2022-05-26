@@ -60,7 +60,6 @@
   flex-grow: 1
 }
 
-
 ul {
   margin: 0;
   padding: 0px;
@@ -135,7 +134,6 @@ li > * {
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
-
 
 li > input[type="text"] {
   width: 226px
