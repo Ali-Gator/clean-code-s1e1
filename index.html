@@ -15,8 +15,8 @@
   <section class="todo__add-item">
     <h2 class="todo__title">Add Item</h2>
     <div class="todo__input-wrapper">
-      <input class="task todo__input-task" id="new-task" type="text">
-      <button class="todo__add-button">Add</button>
+      <input class="todo__input-task todo__input-task_visible" id="new-task" type="text">
+      <button class="todo__button todo__button_type_add">Add</button>
     </div>
   </section>
   <section class="todo__in-progress">
@@ -24,21 +24,21 @@
     <ul class="todo__list" id="incomplete-tasks">
       <li class="todo__item">
         <input class="todo__input-checkbox" type="checkbox">
-        <p class="task todo__text">Pay Bills</p>
-        <input class="task todo__input-task" id="todo-task" type="text">
-        <button class="todo__edit-button">Edit</button>
-        <button class="todo__delete-button">
+        <p class="todo__text">Pay Bills</p>
+        <input class="todo__input-task" id="todo-task" type="text">
+        <button class="todo__button todo__button_type_edit">Edit</button>
+        <button class="todo__button todo__button_type_delete">
           <img class="todo__delete-icon" src="./remove.svg" alt="Delete icon">
         </button>
       </li>
-      <li class="todo__item todo__item_editable">
+      <li class="todo__item">
         <input class="todo__input-checkbox" type="checkbox">
-        <p class="task todo__text">Go Shopping</p>
-        <input class="task todo__input-task"
+        <p class="todo__text todo__text_hidden">Go Shopping</p>
+        <input class="todo__input-task todo__input-task_visible"
                type="text"
                value="Go Shopping">
-        <button class="todo__edit-button">Save</button>
-        <button class="todo__delete-button">
+        <button class="todo__button todo__button_type_edit">Save</button>
+        <button class="todo__button todo__button_type_delete">
           <img class="todo__delete-icon" src="./remove.svg" alt="Delete icon">
         </button>
       </li>
@@ -49,10 +49,10 @@
     <ul class="todo__list" id="completed-tasks">
       <li class="todo__item">
         <input class="todo__input-checkbox" type="checkbox" checked>
-        <p class="task todo__text">See the Doctor</p>
-        <input class="task todo__input-task" type="text">
-        <button class="todo__edit-button">Edit</button>
-        <button class="todo__delete-button">
+        <p class="todo__text">See the Doctor</p>
+        <input class="todo__input-task" type="text">
+        <button class="todo__button todo__button_type_edit">Edit</button>
+        <button class="todo__button todo__button_type_delete">
           <img class="todo__delete-icon" src="./remove.svg" alt="Delete icon">
         </button>
       </li>
