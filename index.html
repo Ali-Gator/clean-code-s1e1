@@ -12,20 +12,20 @@
      href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
 </header>
 <main class="todo">
-  <section class="add-item">
+  <section class="todo__add-item">
     <h2 class="todo__title">Add Item</h2>
-    <div class="add-item__input-wrapper">
-      <input class="task add-item__input" id="new-task" type="text">
-    <button class="add-item__add-button">Add</button>
-  </div>
+    <div class="todo__input-wrapper">
+      <input class="task todo__input-task" id="new-task" type="text">
+      <button class="todo__add-button">Add</button>
+    </div>
   </section>
-  <section class="">
+  <section class="todo__in-progress">
     <h2 class="todo__title">Todo</h2>
     <ul class="todo__list" id="incomplete-tasks">
       <li class="todo__item">
         <input class="todo__input-checkbox" type="checkbox">
         <p class="task todo__text">Pay Bills</p>
-        <input class="task todo__input-task" id="todo-task" type="text" >
+        <input class="task todo__input-task" id="todo-task" type="text">
         <button class="todo__edit-button">Edit</button>
         <button class="todo__delete-button">
           <img class="todo__delete-icon" src="./remove.svg" alt="Delete icon">
@@ -44,10 +44,10 @@
       </li>
     </ul>
   </section>
-  <section>
+  <section class="todo__completed">
     <h2 class="todo__title">Completed</h2>
-    <ul id="completed-tasks">
-      <li>
+    <ul class="todo__list" id="completed-tasks">
+      <li class="todo__item">
         <input class="todo__input-checkbox" type="checkbox" checked>
         <p class="task todo__text">See the Doctor</p>
         <input class="task todo__input-task" type="text">
